@@ -46,31 +46,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterSelection.Designer.cs">
+      <DependentUpon>CharacterSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coin.cs" />
+    <Compile Include="DifficultySelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DifficultySelection.Designer.cs">
+      <DependentUpon>DifficultySelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlyingObstacle.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameDifficulty.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="GameSettings.cs" />
+    <Compile Include="GroundObstacle.cs" />
+    <Compile Include="HighScoreManager.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Obstacle.cs" />
+    <Compile Include="PlayableCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScoreRecord.cs" />
+    <EmbeddedResource Include="CharacterSelection.resx">
+      <DependentUpon>CharacterSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DifficultySelection.resx">
+      <DependentUpon>DifficultySelection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -106,6 +143,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\KhinkaliRunning2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CharSelect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mtiuluri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Qalaquri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForkFly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlyFork1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlyKnife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DifficultySelection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeneralBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darkwood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightwall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woodfinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
