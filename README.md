@@ -1,6 +1,7 @@
 # 🥟 Khinkali VS Fork
 
 **Khinkali VS Fork** is a C# Windows Forms endless runner game developed as a university programming project.
+
 > **Note:** This project was originally developed as a university assignment, so the source code contains more detailed comments and documentation than a typical portfolio project.
 
 The player controls a khinkali character and avoids fork and knife obstacles while earning points, progressing through different difficulty levels, and collecting coins during night mode.
@@ -26,23 +27,40 @@ The player controls a khinkali character and avoids fork and knife obstacles whi
 
 ## 📸 Application Preview
 
-### Main Menu
-![Main Menu](screenshots/main-menu.png)
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Main Menu</strong><br><br>
+      <img src="screenshots/main-menu.png" width="350">
+    </td>
+    <td align="center" valign="top">
+      <strong>Character Selection</strong><br><br>
+      <img src="screenshots/character-selection.png" width="350">
+    </td>
+  </tr>
 
-### Character Selection
-![Character Selection](screenshots/character-selection.png)
+  <tr>
+    <td align="center" valign="top">
+      <strong>Gameplay</strong><br><br>
+      <img src="screenshots/gameplay.png" width="350">
+    </td>
+    <td align="center" valign="top">
+      <strong>🌙 Night Mode & Coin Collection</strong><br><br>
+      <img src="screenshots/night-mode.png" width="350">
+    </td>
+  </tr>
 
-### Gameplay
-![Gameplay](screenshots/gameplay.png)
-
-### 🌙 Night Mode & Coin Collection
-![Night Mode and Coin Collection](screenshots/night-mode.png)
-
-### Game Over
-![Game Over](screenshots/game-over.png)
-
-### High Scores
-![High Scores](screenshots/high-scores.png)
+  <tr>
+     <td align="center" valign="top">
+      <strong>Game Over</strong><br><br>
+      <img src="screenshots/game-over.png" width="350">
+    </td>
+     <td align="center" valign="top">
+      <strong>High Scores</strong><br><br>
+      <img src="screenshots/high-scores.png" width="350">
+    </td>
+  </tr>
+</table>
 
 ## 🧠 Programming Concepts Used
 
